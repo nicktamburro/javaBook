@@ -5,6 +5,7 @@ class ifDemo{
 	a = 2;
 	b = 3;
 
+//notice the if statments, like the for loops later, don't need curly braces!
 	if(a < b) System.out.println("a is less than b");
 	if(a == b) System.out.println("nothing to see here");
 
