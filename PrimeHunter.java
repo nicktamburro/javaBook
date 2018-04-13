@@ -23,7 +23,9 @@ class PrimeHunter{
 				for (i = 2; i < 100; i++){
 					isprime = true;
 
-					for (j = 2; u <= i/j; j++){
+
+			//this is the line I don't understand yet...
+					for (j = 2; j <= i/j; j++){
 	if ((i%j) == 0) isprime = false;
 
 	if(isprime)
