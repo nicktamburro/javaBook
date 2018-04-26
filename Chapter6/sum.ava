@@ -1,0 +1,11 @@
+//create
+//a varargs method called sum, that sums the int values passed to it, and returns the result
+
+class sum{
+	int sum(int ... i){
+
+		int j;
+		
+
+	}
+}

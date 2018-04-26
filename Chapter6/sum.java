@@ -20,10 +20,10 @@ class SumDemo{
 	public static void main(String args[]){
 		Sum sum1 = new Sum();
 
-		int total = sum1.Sum(1,2,3,4,5);
+		int total = sum1.sum(1,2,3,4,5);
 		System.out.println("Sum is " + total);
 
-		total = sum1.Sum(10,11,12,13);
+		total = sum1.sum(10,11,12,13);
 		System.out.println("Sum is " + total);
 
 	}
