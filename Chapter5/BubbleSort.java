@@ -11,8 +11,11 @@ class BubbleSort{
 			System.out.print(" " + nums[i]);
 		System.out.println();
 
+//okay so they start a loop counting up from array 1, 99
 		for (a = 1; a< size; a++){
+			//and as that one counts up, this one counts down from the end
 			for(b = size - 1; b >= a; b--){
+				//THEN it does the swapping
 				if (nums[b-1] > nums[b]){
 					t = nums[b-1];
 					nums[b-1] = nums[b];

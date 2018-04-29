@@ -1,24 +1,22 @@
 class BubbleSort2{
 	public static void main(String args[]){
 
-int nums [] = {5, 6, 4, 6, 3, 12, 1};
+int nums [] = {5, 4, 6, 3, 12, 1};
 	
-Boolean swap = false;
-do{
-	
-
+Boolean swap = true;
+while(swap){
+	swap = false;
 	for(int i = 1; i<nums.length ; i++){
-		//do this part backwards now.... 
 		if (nums[i - 1] > nums[i]){
-			int t = nums[i];
-			nums[i] = nums[i-1];
-			nums[i-1] = t;
+			int t = nums[i-1];
+			nums[i-1] = nums[i];
+			nums[i] = t;
 			swap = true;
 		}else{
 			swap = false;
 		}
 	}
-}while(swap == true);
+}
 
 System.out.print("Sorted: ");
 for(int j=0 ; j<nums.length ; j++)
