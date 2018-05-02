@@ -60,6 +60,17 @@ abstract class TwoDShape{
 	//ALSO, and abstract method CANNOT have a body
 }
 
+class Circle extends TwoDShape{
+	Circle(String n, double w){
+		super(w, "circle");
+	}
+
+	double area(){
+		return getWidth() * getWidth() * 3.14;
+	}
+
+}
+
 class Triangle extends TwoDShape{
 	private String style;
 
@@ -130,12 +141,14 @@ return false;
 
 class AbstractShapes{
 	public static void main(String args[]){
-		TwoDShape shapes[] = new TwoDShape[4];
+		TwoDShape shapes[] = new TwoDShape[5];
 
 		shapes[0] = new Triangle("outlined", 8.0, 12.0);
 		shapes[1] = new Rectangle(10);
 		shapes[2] = new Rectangle(10, 4);
 		shapes[3] = new Triangle(7.0);
+		//not sure why I need to call circle here, I think something else is wrong...
+		shapes[4] = new Circle("circle", 5.0);
 	
 
 	for(int i=0; i<shapes.length; i++){
