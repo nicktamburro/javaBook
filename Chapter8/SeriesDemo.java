@@ -4,14 +4,48 @@
 class ByTwos implements Series{
 	int start;
 	int val;
+	int prev;
 
 	ByTwos(){
 		start = 0;
 		val = 0;
+		prev = -2;
 	}
 //all members of an interact need to be public
 	public int getNext(){
+		prev = val;
 		val += 2;
+		return val;
+	}
+
+	public void reset(){
+		val = start;
+		prev = start - 2;
+
+	}
+
+	public void setStart(int x){
+		start = x;
+		val = x;
+		prev = x -2;
+	}
+
+	int getPrevious(){
+		return prev;
+	}
+}
+
+class ByThrees implements Series{
+	int start;
+	int val;
+
+	ByThrees(){
+		start = 0;
+		val = 0;
+	}
+
+	public int getNext(){
+		val += 3;
 		return val;
 	}
 
