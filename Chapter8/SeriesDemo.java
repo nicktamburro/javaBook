@@ -61,21 +61,20 @@ class ByThrees implements Series{
 
 class SeriesDemo{
 	public static void main(String args[] ){
-		ByTwos ob = new ByTwos();
+		ByTwos twoOb = new ByTwos();
+		ByThrees threeOb = new ByThrees();
+		Series ob;
 
 		int i;
-		for(i=0; i< 5; i++)
-			System.out.println("Next is: " + ob.getNext());
+		for(i=0; i< 5; i++){
+			ob = twoOb;  // this is an interface reference;
+			//we could also just do ("Next byTwos: " + twoOb.getNex());
+			System.out.println("Next byTwos: " + ob.getNext());
 
-			System.out.println("\nResetting");
-			ob.reset();
-
-			for(i=0; i< 5; i++)
-				System.out.println("Next is " + ob.getNext());
-
-			System.out.println("\nStarting at 100");
-			ob.setStart(100);
-			for(i=0 ; i<5; i++)
-				System.out.println("Next is " + ob.getNext());
+			ob = threeOb;   //this is also an interface reference
+			//could also just do ("Next byThrees" " + threeOb.getNext());
+			System.out.println("Next byThrees: " + ob.getNext());
+			
+			}
 		}
 	}
