@@ -1,3 +1,5 @@
+import qpack.*;
+
 //fixed-size queue
 class FixedQueue implements ICharQ{
 	private char q[]; //this array holds the queue

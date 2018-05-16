@@ -1,7 +1,10 @@
 class GuessingGame{
 	public static void main(String args[])
+	
 	throws java.io.IOException{
+//this I just have to memorize ^^
 
+		
 		char ch, ignore, answer = 'k';
 
 

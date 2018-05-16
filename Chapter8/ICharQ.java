@@ -1,3 +1,4 @@
+package qpack;
 //the character Queue interface
 public interface ICharQ{
 	//put a character in
