@@ -11,6 +11,7 @@ class ExcDemo4{
 				//catch this
 				System.out.println("Can't divide by zero!");
 			}
+			//and/or catch this
 			catch (ArrayIndexOutOfBoundsException exc){
 				System.out.println("No matching element");
 			}
