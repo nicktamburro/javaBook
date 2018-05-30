@@ -16,7 +16,11 @@ class ExcDemo5{
 			}
 			catch (Throwable exc) {
 				//catch superclass exceptions
+				//this catch catches all exceptions except for OutOfbounds
 				System.out.println("Some exception occurred.");
+
+				//so this is like, if you want it to return special things for just certain exceptions,
+				//but otherwise want to just catch everything else
 			}
 		}
 	}
