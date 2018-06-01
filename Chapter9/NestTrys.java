@@ -8,6 +8,7 @@ class NestTrys{
 
 		try{
 			//outer try
+			//this try does a loop and divides everything in the two arrays...
 			for(int i=0; i<numer.length; i++){
 				try{
 					//nested try
@@ -15,14 +16,18 @@ class NestTrys{
 				}
 				catch (ArithmeticException exc){
 					//catch the exception
+					//if a divide by zero comes up, it catches it... 
 					System.out.println("Can't divide by zero!");
 				}
 			}
 		}
 		catch(ArrayIndexOutOfBoundsException exc){
 			//catch the exception
+			//if the loop ITSELF doesn't work it goes to this catch...
+			//but I'm still not sure why?
 			System.out.println("No matching element found.");
 			System.out.println("Fatal error = program terminated.");
+			System.out.println("But why isn't this error inside the second try, too");
 		}
 	}
 }
