@@ -25,6 +25,9 @@ class NestTrys{
 			//catch the exception
 			//if the loop ITSELF doesn't work it goes to this catch...
 			//but I'm still not sure why?
+
+//here is why... the INNER try catches errors that you can pretty much just brush off and move on from,
+			//the OUTER try is for stuff we can't just bounce back from, the program will not work...
 			System.out.println("No matching element found.");
 			System.out.println("Fatal error = program terminated.");
 			System.out.println("But why isn't this error inside the second try, too");
