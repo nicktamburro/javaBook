@@ -24,6 +24,7 @@ class UseFinally{
 		catch (ArrayIndexOutOfBoundsException exc){
 			//catch it
 			System.out.println("No matching element found.");
+			System.out.println("Because there aren't that many numbers in the array.");
 		}
 		finally {
 			System.out.println("Leaving try.");
@@ -34,6 +35,7 @@ class UseFinally{
 class FinallyDemo{
 	public static void main(String args[]){
 		for (int i=0; i<3; i++){
+			//pay attention to this... genException()... read up on it
 			UseFinally.genException(i);
 			System.out.println();
 		}
