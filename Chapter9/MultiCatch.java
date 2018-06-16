@@ -24,5 +24,6 @@ class MultiCatch{
 			}
 		}
 		System.out.println("After multi-catch.");
+		//cool
 	}
 }
