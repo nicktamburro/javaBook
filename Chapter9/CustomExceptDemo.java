@@ -13,6 +13,10 @@ class NonIntResultException extends Exception{
 	}
 
 	//and it returns this, if it gets caught
+	//also why this different format, return instead of print,
+	//toString() etc... why?
+
+	//need to read this chapter agains
 	public String toString(){
 		return "Result of " + n + " / " + d + " is non-integer.";
 	}
