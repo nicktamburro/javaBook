@@ -39,10 +39,12 @@ class CustomExceptDemo{
 			}
 			catch(ArithmeticException exc){
 				System.out.println("can't divide by zero!");
+				System.out.println("I understand this one, it's built in.");
 
 			}
 			catch (ArrayIndexOutOfBoundsException exc){
 				System.out.println("no matching element found!");
+				System.out.println("this one too, it's a standard exception.");
 			}
 			catch(NonIntResultException exc){
 				System.out.println(exc);
