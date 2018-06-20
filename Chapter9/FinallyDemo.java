@@ -28,6 +28,7 @@ class UseFinally{
 		}
 		finally {
 			System.out.println("Leaving try.");
+			//need to read back up on this too, this whole chapter really
 		}
 	}
 }
