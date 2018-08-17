@@ -6,6 +6,7 @@ class Break4{
 		for (i = 1; i< 4; i++){
 
 			//these are blocks... review this
+			//yeah, no... 
 			one: {
 				two: {
 					three: {

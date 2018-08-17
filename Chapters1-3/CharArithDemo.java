@@ -1,6 +1,7 @@
 class CharArithDemo{
 	public static void main(String args[]){
 
+//got all this
 		char ch;
 		ch = 'X';
 		System.out.println("ch contains " + ch);
