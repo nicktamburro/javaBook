@@ -5,5 +5,7 @@ class StrDemo{
 		System.out.println("D\tE\tF");
 		System.out.println("First line\\SecondLine");
 		System.out.println("A\\B\\C");
+
+		//hi these are strings and line breaks
 	}
 }

@@ -5,6 +5,7 @@ class WhileDemo{
 
 		ch = 'a';
 
+//so this just prints out all the letters until we reach z
 		while(ch <= 'z'){
 			System.out.println(ch);
 			ch++;

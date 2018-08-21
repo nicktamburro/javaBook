@@ -2,8 +2,11 @@ class SwitchDemo{
 	public static void main(String args[]){
 		int i;
 
+		//loop 10 times
 		for (i=0; i<10; i++)
+			//take in i
 			switch(i){
+				//do these things when i = any of them...
 			case 0:
 				System.out.println("i is zero");
 				break;
