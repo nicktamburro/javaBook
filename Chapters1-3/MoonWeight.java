@@ -1,5 +1,6 @@
 class MoonWeight{
 	public static void main(String args[]){
+		//all very straightforward
 		int weight;
 		double moonWeight;
 

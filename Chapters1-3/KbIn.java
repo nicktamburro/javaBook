@@ -2,7 +2,8 @@ class KbIn{
 	public static void main(String args[]) 
 		throws java.io.IOException{
 			//LOOK how curly brace starts here, not after the main() call!
-
+			//just need to memorize throws java.io.IOException
+			//throws java.io.IOException
 			char ch;
 
 			System.out.print("Press a key followed by ENTER: ");

@@ -6,6 +6,7 @@ class Hypot{
 		y = 4;
 
 		z = Math.sqrt(x*x + y*y);
+		//learn the Math things...
 
 		System.out.println("Hypotenuse is " + z);
 	}

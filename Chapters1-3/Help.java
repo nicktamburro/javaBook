@@ -5,6 +5,7 @@ class Help{
 
 //infinite for loop:
 	for(;;){
+		//okay yeah, infinite loop!
 	do{
 		System.out.println("What can I help you with?");
 		System.out.println("1. If statments");
@@ -19,6 +20,7 @@ class Help{
 		choice = (char) System.in.read();
 
 		//this do-while clears the buffer, which I don't understand yet
+		//yeah read this one again... 
 		do {
 			ignore = (char) System.in.read();
 		}while (ignore != '\n');

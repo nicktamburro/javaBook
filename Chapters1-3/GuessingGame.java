@@ -12,12 +12,12 @@ class GuessingGame{
 		System.out.println("What letter am I thinking of?");
 
 		ch = (char) System.in.read();
-
+			//this again
 			do{
 				ignore = (char) System.in.read();
 			}while (ignore != '\n');
 
-
+//but no infinite loop in this one?
 
 		if (ch == answer){
 			System.out.println("You guessed it!");
