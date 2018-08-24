@@ -1,6 +1,6 @@
 class GalToLitTable{
 	public static void main(String args[]){
-
+//just doing math with variables...
 		double count;
 
 		for (count = 1; count < 101; count++)

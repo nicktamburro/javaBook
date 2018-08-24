@@ -1,6 +1,6 @@
 class ForDemo{
 	public static void main(String args[]){
-
+//here is a for loop
 		int count;
 
 //loops are pretty much the same, except they DON'T have to be in curly brackets!
