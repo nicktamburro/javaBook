@@ -4,16 +4,19 @@ class MinMax21{//set up a class
         //void = what it returns, main = where it starts, (what args it takes);
 
         //then we make our new array
-        int nums[] = new int[5];
+        //NOW instead of assigning all the values down below, we'll do it here in an object'
+
+        //when we do this, we can skip the "new" operator, or say how many there will be;
+        int nums[] = {99, 20, -100, 234, -1000};
         //and set up min and max
         int min, max;
 
 //assign values
-        nums[0] = 99;
+        /*nums[0] = 99;
         nums[1] = 20;
         nums[2] = -100;
         nums[3] = 234;
-        nums[4] = 1000;
+        nums[4] = 1000;*/
 
         min = max = nums[0];
         //set everything at zero
