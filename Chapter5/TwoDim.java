@@ -16,6 +16,7 @@ class TwoDim{
 //because when i did t++, it gave me 4 arrays, which it wasn't supposed to do
 //so now read up on ++i vs i++
 //KIND OF get it, but so after lunch task is to really understand why it makes this difference
+//okay I'm crazy, it actually doesn't make a difference
 
         for(t=0; t<3;t++){
             for (i=0; i<4; i++){
