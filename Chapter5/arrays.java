@@ -24,7 +24,8 @@ class Arrays{
 
 //cool, but why not do that in the same loop
 //yeah, same... 
-        for(i=0; i <10; i=i+1){
+//this loop used to have i=i+1, but i like i++ better
+        for(i=0; i <10; i++){
             sample[i] = i;
             System.out.println("This is sample[" + i + "]: " + sample[i]);
         }
