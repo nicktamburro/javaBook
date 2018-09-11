@@ -56,11 +56,15 @@ class QDemo{
         //so we already said it was a char array, but we have to do this? 
         //so there is a conversion here
         //need to review cast
+        //sure okay, so really inside this loop we're just working with numbers 1 - 26
+        //but we want them to be letters, so we have to convert it...'
             bigQ.put((char) ('A' + i));
 
         System.out.println("here's what's in bigQ: ");
             for(i=0; i<26; i++){
+                //now we print it out
                 ch = bigQ.get();
+                //and have to convert it again on the way out
                 if(ch != (char) 0) System.out.print(ch);
             }
 
@@ -70,8 +74,10 @@ class QDemo{
     System.out.println("making errors in smallQ");
         for(i=0; i<5; i++){
             //because it only has 4 spaces
+            //same thing, use a cast since the loop is "thinking" in numbers
             System.out.println("trying" + (char) ('Z' - i));
 
+            
             smallQ.put((char) ('Z' - i));
 
             System.out.println();
