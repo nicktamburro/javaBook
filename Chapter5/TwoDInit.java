@@ -4,7 +4,7 @@ class TwoDInit{
         //if we wanted to declare multiple arrays at once,
         //we could go
         int[] nums, nums1, nums2;
-        
+
         int sqrs[][]={
             {1,1},
             {2, 4},
