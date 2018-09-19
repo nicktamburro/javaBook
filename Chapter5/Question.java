@@ -17,3 +17,15 @@ class Question{
         }
     }
 }
+
+class Test{
+    public static void main(String[] args){
+       //declare a one dim array of 12 doubles
+       double array[] = new double[12];
+
+       //initialize a 1-dim array of integers 1-5
+       int oneToFive[] = {1, 2, 3, 4, 5};
+
+       //
+    }
+}
